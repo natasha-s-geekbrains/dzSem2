@@ -10,7 +10,7 @@ int GetRandomNumber()
 
 int GetThirdDigit(int num1)
 {
-    while (num1 > 1000)
+    while (num1 > 999)
     {
         num1 = num1 / 10;
     }
